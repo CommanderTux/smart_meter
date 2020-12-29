@@ -1,7 +1,7 @@
 # smart_meter
 Smartmeter readout using optical port according to IEC 62056-21 (No DSMR).
 
-My house is fitted with solar panels connected to the grid trough a smartmeter on the attick (loft). This meter is not equipped with an P1 port (DSMR). So I needed to look for a different solution to read all the metered values.
+My house is fitted with solar panels connected to the grid trough a electricity smartmeter on the attick (loft). This meter is not equipped with an P1 port (DSMR). So I needed to look for a different solution to read all the metered values.
 I was able to use the optical interface on the smartmeter to read the data from the meter. It uses the EC  62056-21  data  transmission  protocol. Reading into the protocol, I thought it would be possible to build an IR optical interface and write an application to read all the data from the meter.
 
 On multiple sites, optical probes are sold for exorbitant prices. So I decided to build one myself or buy a kit.
